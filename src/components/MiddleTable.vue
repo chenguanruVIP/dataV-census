@@ -191,7 +191,7 @@ export default {
     }
     #china_map {
         width: 100%;
-        height: 750px;
+        height: 70vh;
         color: #ffffff;
     }
 </style>

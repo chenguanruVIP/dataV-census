@@ -1,7 +1,7 @@
 <template>
     <div class="left-table-2">
         <div class="table-title">人口排名</div>
-        <dv-capsule-chart :config="config" style="width:100%;height:400px" />
+        <dv-capsule-chart :config="config" style="width:100%;height:48vh" />
 
     </div>
 </template>

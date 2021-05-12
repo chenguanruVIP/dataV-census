@@ -1,7 +1,7 @@
 <template>
     <div class="left-table-3">
         <p>各省人口数量</p>
-        <dv-scroll-board :config="config" style="width:430px;height:440px" rowNum="10"/>
+        <dv-scroll-board :config="config" style="width:100%;height:44vh" rowNum="10"/>
     </div>
 </template>
 

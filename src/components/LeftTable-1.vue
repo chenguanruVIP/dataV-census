@@ -27,12 +27,12 @@ export default {
                             { name: '男性', value: 51.24 },
                             { name: '女性', value: 48.76 },
                         ],
-                        radius: ['45%', '65%'],
+                        radius: ['45%', '55%'],
                         insideLabel: {
                             show: false
                         },
                         outsideLabel: {
-                            labelLineEndLength: 10,
+                            labelLineEndLength: 4,
                             formatter:'{name}-{value}%',
                             style: {
                                 fontSize: 14,
@@ -51,7 +51,7 @@ export default {
 .left-table-1{
     color:#ffffff;
     .left-main{
-        height: 300px;
+        height: 30vh;
     }
 }
 </style>

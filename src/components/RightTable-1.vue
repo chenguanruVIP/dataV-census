@@ -3,11 +3,11 @@
         <div class="r-n1">
             <div class="table-item">
                 <p>人口地区分布</p>
-                <dv-active-ring-chart :config="config1" style="width:200px;height:200px" />
+                <dv-active-ring-chart :config="config1" class="chart-style"/>
             </div>
             <div class="table-item">
                 <p>年龄构成</p>
-                <dv-active-ring-chart :config="config2" style="width:200px;height:200px" />
+                <dv-active-ring-chart :config="config2" class="chart-style" />
             </div>
         </div>
         <dv-decoration-2 style="height:10px;margin-top:20px" />
@@ -98,6 +98,10 @@ export default {
             font-size: 17px;
             font-weight: bold;
         }
+    }
+    .chart-style{
+        width:10vw;
+        height:20vh
     }
 }
 </style>
